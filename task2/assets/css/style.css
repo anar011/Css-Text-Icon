@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 80px;
+    background-color: antiquewhite;
+}
+
+.trak{
+    width: 230px;
+    height: 230px;
+    background-color: rgb(186, 116, 31);
+    border-radius: 0px 50px 0px ;
+    margin-left: 660px;
+    margin-top: 100px;
+
+}
+
+i{
+    margin-top: 70px ;
+    margin-left: 70px;
+    font-size: 70px;
+    color: white;
+}
+
+.free{   
+   font-family: 'Cormorant Garamond', serif;
+   text-align: center;
+   
+}
+
+.delivery{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+
+.text{
+    width: 400px;
+    height: 170px;
+    background-color: white;
+    margin-left: 600px;
+   
+}
+
+.text .lorem{
+    font-family: 'Cormorant Garamond', serif;
+    text-align-last: center;
+    
+}
+

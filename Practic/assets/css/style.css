@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.items{}
+
+
+
+.items ul {
+   display: flex;
+   list-style: none;
+   height: 80px;
+   align-items: center;
+}
+
+.items li {
+    margin-left: 10px;
+    font-size: 22px;
+
+}
+
+.items li a {
+    text-decoration: none;
+
+}
+
+.items ul .line {
+     height: 20px;
+     background-color: black;
+     width: 1px;
+     margin-left: 10px;
+     height: 35px;
+}
+
+.content{
+    width: 600px;
+}
+.content p img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 100px;
+    overflow-y: scroll;
+}
+
+.box p{
+    text-align: justify;
+}
+
+ .aa{
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    font-weight: 700;
+    color: magenta;
+    border-radius: 10px;
+    margin-left: 100px;
+    transition: all 0.5s;
+
+}
+  .aa:hover{
+    color: black;
+    background-color: magenta;
+    border: 1px solid magenta;
+  }
+
+  .box p{
+    text-indent: 50px;
+    letter-spacing: 5px;
+  }
+
+  .item1{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    /* display: none; */
+    /* visibility: hidden; */
+  }
+
+  .item2{
+    width: 300px;
+    height: 300px;
+    background-color: blue ; 
+  }
+
+  .none{
+    display: none;
+  }
+
+  .boxx{
+    display: flex;
+    gap:10px;
+  }
+
+  h2{
+    margin: 200px;
+    font-size: 50px;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Solitreo', cursive;
+  }
+
+  @font-face {
+    font-family: descriptionsFont ;
+    src: url(../fonts/Dancing_Script.zip);
+  }
+
+  .lorem{
+    font-family: descriptionsFont;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .icon{
+    position: relative;
+  }
+  .icon i{
+    font-size: 40px;
+    color: brown;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    
+  }
+
+  sup{
+   position: absolute;
+   top:88px;
+   font-size: 15px;
+   background-color: brown;
+   border-radius: 49%;
+   padding: 0px;
+   width: 20px;
+   padding-left: 6px;
+   height: 20px;
+   color:aliceblue;
+   font-weight: 700;
+  }
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .students h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .students a{
+    text-decoration: none;
+    display: block;
+
+  }
+  .students .create{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 10px;
+
+  }
+
+  .students .create a i{
+    color: red;
+    font-size: 20px;
+    display: block;
+  }
+
+
+.students table .icons{
+  display: flex;
+  gap: 15px;
+
+}
+
+.students table .icons a:nth-child(1){
+  background-color: rgb(44, 7, 136);
+
+}
+
+.students table .icons a:nth-child(2){
+  background-color: green;
+
+}
+
+.students table .icons a:nth-child(3){
+  background-color: red;
+
+}
+
+.students table .icons a i{
+  padding: 10px;
+  color: beige;
+  border-radius: 5px;
+
+
+
+}

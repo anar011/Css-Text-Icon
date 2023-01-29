@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.box{
+    width: 450px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin-left: 520px;
+    margin-top: 60px;
+    box-shadow: 2px 2px 2px 2px rgb(223, 219, 211);
+}
+
+.wedding{
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    padding: 50px;
+    font-size: 350%;
+    
+
+}
+
+.lauren{
+    font-family: 'Spectral SC', serif;
+    padding-left: 100px;
+
+}
+
+.box .please{
+    font-family: 'Spectral SC', serif;
+    font-size: 80%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box .friday{
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+}
+
+.box .oclock{
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+}
+
+.box .winchester{
+   font-family: 'Spectral SC', serif;
+   text-align: center;
+   font-size: 80%;
+
+}
+
+.box .reception{
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 70%;
+}
